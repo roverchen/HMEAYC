@@ -676,8 +676,8 @@ footer {
 
 @media (max-width: 768px) {
     .content-indent {
-        padding-left: 0;
-        /* Reset on mobile */
+        padding-left: 20px;
+        /* Reduced indentation for mobile, but not zero */
     }
 }
 
