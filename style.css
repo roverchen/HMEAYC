@@ -675,9 +675,16 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .container {
+        padding: 0 30px;
+        /* Increased side padding for mobile container */
+    }
+
     .content-indent {
-        padding-left: 20px;
-        /* Reduced indentation for mobile, but not zero */
+        padding-left: 15px;
+        /* Slight indentation */
+        padding-right: 15px;
+        /* Add right padding to prevent edge touching */
     }
 }
 
